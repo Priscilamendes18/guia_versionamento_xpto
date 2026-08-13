@@ -100,13 +100,15 @@ Quando ocorre um push ou um Pull Request direcionado à main, a pipeline pode se
 O fluxo é:
 
 Push
-  ↓
+
+  |
+  
 Build
-  ↓
+  |
 Testes
-  ↓
+  |
 Aprovação
-  ↓
+  |
 Deploy
 
 Cada etapa possui uma função:
