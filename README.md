@@ -1,9 +1,9 @@
 # Guia de Versionamento e Colaboração da XPTO
-Nomes: Caroline de Carvalho Mendes        RA:
-       Priscila de Carvalho Mendes        RA: 2171392511039
-Período: Matutino
-Ciclo: 4 Semestre
-Curso: Desenvolvimento de Software Multiplataforma
+* Nomes: Caroline de Carvalho Mendes        RA:
+         Priscila de Carvalho Mendes        RA: 2171392511039
+* Período: Matutino
+* Ciclo: 4 Semestre
+* Curso: Desenvolvimento de Software Multiplataforma
 
 ## Fluxo de trabalho
 
