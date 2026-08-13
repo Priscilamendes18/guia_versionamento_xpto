@@ -84,7 +84,7 @@ O push envia as alterações para o GitHub.
 
 #### Passo 7. Criar um Pull Request
 
-Em projetos colaborativos, a integração das alterações normalmente acontece por meio de um Pull Request (PR) no GitHub, em vez de realizar o merge diretamente no computador do desenvolvedor.
+A integração das alterações normalmente acontece por meio de um Pull Request (PR) no GitHub
 
 O PR deve ter:
 
@@ -96,7 +96,7 @@ Compare: branch de desenvolvimento, como feature-login
 
 Quando ocorre um push ou um Pull Request direcionado à main, a pipeline pode ser executada automaticamente.
 
-O fluxo apresentado no material é:
+O fluxo é:
 
 Push
   ↓
@@ -108,11 +108,10 @@ Aprovação
   ↓
 Deploy
 
-A pipeline fornece feedback automático por meio de status, logs e, quando configurado, bloqueio do merge.
 Cada etapa possui uma função:
 
 Build: verifica se é possível gerar o artefato.
-Test: verifica se o comportamento está correto.
+Testes: verifica se o comportamento está correto.
 Deploy: verifica se o sistema pode ser entregue com segurança.
 
 
@@ -140,21 +139,21 @@ main
 Depois que alterações forem integradas à main, os desenvolvedores devem manter seus repositórios locais atualizados.
 
 Para trazer as alterações do repositório remoto:
-
+```bash
 git pull
-
+````
 Ou:
-
+```bash
 git pull origin main
-
+````
 
 11. Desfazendo uma alteração
 
 Caso seja necessário desfazer um commit, a XPTO pode utilizar:
-
+```bash
 git log --oneline
 git revert HASH_DO_COMMIT
-
+````
 12. Fluxo da XPTO
 
 O fluxo completo de desenvolvimento é:
