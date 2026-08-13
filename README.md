@@ -135,7 +135,7 @@ Merge
 main
 
 
-10. Atualizar o projeto local
+#### Passo 10. Atualizar o projeto local
 
 Depois que alterações forem integradas à main, os desenvolvedores devem manter seus repositórios locais atualizados.
 
@@ -148,14 +148,14 @@ Ou:
 git pull origin main
 ````
 
-11. Desfazendo uma alteração
+#### Passo 11. Desfazendo uma alteração
 
 Caso seja necessário desfazer um commit, a XPTO pode utilizar:
 ```bash
 git log --oneline
 git revert HASH_DO_COMMIT
 ````
-12. Fluxo da XPTO
+#### Passo 12. Fluxo da XPTO
 
 O fluxo completo de desenvolvimento é:
 
